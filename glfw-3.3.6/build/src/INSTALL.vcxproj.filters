@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\glfw-3.3.6\build\CMakeFiles\f82c0d7a5974655b7ae3195cf9bcc47b\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{5CA04575-1BAA-3B8F-9615-C929B6623CCC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

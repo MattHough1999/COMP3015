@@ -1,0 +1,5 @@
+﻿  Building Custom Rule C:/Users/Matt/Documents/GitHub/COMP3015/COMP3015/glfw-3.3.6/tests/CMakeLists.txt
+  timeout.c
+  glad_gl.c
+  Generating Code...
+  timeout.vcxproj -> C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\glfw-3.3.6\build\tests\Debug\timeout.exe

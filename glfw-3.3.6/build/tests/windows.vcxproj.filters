@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\glfw-3.3.6\tests\windows.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\glfw-3.3.6\deps\getopt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\glfw-3.3.6\deps\glad_gl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\glfw-3.3.6\deps\getopt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\glfw-3.3.6\deps\glad\gl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\glfw-3.3.6\tests\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2081D4DF-7F2A-3F9B-9A1D-45534337781A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9408F2BB-81B7-30E7-A5E3-07A465437ECF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
