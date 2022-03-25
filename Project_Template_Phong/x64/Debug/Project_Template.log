@@ -1,4 +1,1 @@
-﻿  scenebasic_uniform.cpp
-C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\Project_Template_Phong\scenebasic_uniform.cpp(66,39): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\Project_Template_Phong\scenebasic_uniform.cpp(71,39): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-  Project_Template.vcxproj -> C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\Project_Template_Phong\x64\Debug\Project_Template.exe
+﻿  Project_Template.vcxproj -> C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\Project_Template_Phong\x64\Debug\Project_Template.exe

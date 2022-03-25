@@ -157,6 +157,8 @@
   <ItemGroup>
     <None Include="shader\basic_uniform.frag" />
     <None Include="shader\basic_uniform.vert" />
+    <None Include="shader\phong_uniform.frag" />
+    <None Include="shader\phong_uniform.vert" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="helper\drawable.h" />
