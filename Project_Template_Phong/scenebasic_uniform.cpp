@@ -9,13 +9,17 @@ using glm::vec3;
 using glm::mat4;
 
 float rotationSpeed = 1.0f;
+float R = 0.0f, G = 0.0f, B = 0.0f;
+
+int state = 0;
+
 bool back = true;
 
 //constructor for torus
 //SceneBasic_Uniform::SceneBasic_Uniform() : torus(0.7f, 0.3f, 50, 50) {}
 
 //constructor for teapot
-SceneBasic_Uniform::SceneBasic_Uniform() : teapot(13, glm::translate(mat4(1.0f), vec3(0.0f, 1.5f, 0.25f))) {}
+SceneBasic_Uniform::SceneBasic_Uniform() : teapot(20, glm::translate(mat4(1.0f), vec3(0.0f, 1.5f, 0.25f))) {}
 
 void SceneBasic_Uniform::initScene()
 {
@@ -25,13 +29,7 @@ void SceneBasic_Uniform::initScene()
     //initialise the model matrix
     model = mat4(1.0f);
     
-    
-    //enable this group for torus rendering, make sure you comment the teapot group
-    //model = glm::rotate(model, glm::radians(-35.0f), vec3(1.0f, 0.0f, 0.0f)); //rotate model on x axis
-    //model = glm::rotate(model, glm::radians(15.0f), vec3(0.0f, 1.0f, 0.0f));  //rotate model on y axis
-    //view = glm::lookAt(vec3(0.0f, 0.0f, 2.0f), vec3(0.0f, 0.0f, 0.0f), vec3(0.0f, 1.0f, 0.0f)); //sets the view - read in the documentation about glm::lookAt. if still have questions,come an dtalk to me
-
-    //enable this group for teapot rendering, make sure you comment the torus group
+    //Creates
     model = glm::translate(model, vec3(0.0, -1.0, 0.0));
     model = glm::rotate(model, glm::radians(-90.0f), vec3(1.0f, 0.0f, 0.0f));
     model = glm::rotate(model, glm::radians(30.0f), vec3(0.0f, 0.0f, 1.0f));
@@ -40,7 +38,7 @@ void SceneBasic_Uniform::initScene()
     projection = mat4(1.0f);
 
     //make sure you use the correct name, check your vertex shader
-    prog.setUniform("Material.Kd", 0.2f, 0.55f, 0.9f); //seting the Kd uniform
+    prog.setUniform("Material.Kd", R,G,B); //seting the Kd uniform
     prog.setUniform("Light.Ld", 1.0f, 1.0f, 1.0f);     //setting the Ld uniform
     prog.setUniform("Light.Position", view * glm::vec4(5.0f, 5.0f, 2.0f, 0.0f)); //setting Light Position
 }
@@ -60,17 +58,75 @@ void SceneBasic_Uniform::compile()
 
 void SceneBasic_Uniform::update( float t )
 {
-	//update your angle here
-    if (rotationSpeed >= -10.0f && back == true) {
-        model = glm::rotate(model, glm::radians(rotationSpeed), vec3(2.0f, 0.0f, 0.0f));
-        rotationSpeed = rotationSpeed - 0.2;
-        if (rotationSpeed < -10.0f) back = false;
+	//Oscilates the teapot back and forth.
+    if (rotationSpeed >= -4.0f && back == true) {
+        model = glm::rotate(model, glm::radians(rotationSpeed), vec3(0.0f, 0.0f, 2.0f));
+        rotationSpeed = rotationSpeed - 0.02;
+        if (rotationSpeed < -4.0f) back = false;
     }
-    else if (rotationSpeed <= 10.0f && back == false) {
-        model = glm::rotate(model, glm::radians(rotationSpeed), vec3(2.0f, 0.0f, 0.0f));
-        rotationSpeed = rotationSpeed + 0.2;
-        if (rotationSpeed > 10.0f) back = true;
+    else if (rotationSpeed <= 4.0f && back == false) {
+        model = glm::rotate(model, glm::radians(rotationSpeed), vec3(0.0f, 0.0f, 2.0f));
+        rotationSpeed = rotationSpeed + 0.02;
+        if (rotationSpeed > 4.0f) back = true;
     }
+    
+    //Sequentially changes the R,B and G values.
+    switch (state)
+    {
+    case 0:
+        if(R > 4.0f)
+        {
+            state++;
+            break;
+        }
+        R = R + 0.02;
+        break;
+    case 1:
+        if (G > 4.0f)
+        {
+            state++;
+            break;
+        }
+        G = G + 0.02;
+        break;
+    case 2:
+        if (B > 4.0f)
+        {
+            state++;
+            break;
+        }
+        B = B + 0.02;
+        break;
+    case 3:
+        if (R <= 0.1f)
+        {
+            state++;
+            break;
+        }
+        R = R - 0.02;
+        break;
+    case 4:
+        if (B <= 0.1f)
+        {
+            state++;
+            break;
+        }
+        B = B - 0.02;
+        break;
+    case 5:
+        if (G <= 0.1f)
+        {
+            state = 0;
+            break;
+        }
+        G = G - 0.02;
+        break;
+    }
+    //Updates the teapot's colour based on the RGB values.
+    prog.setUniform("Material.Kd", R, G, B);
+    
+            
+
     
     
 }
