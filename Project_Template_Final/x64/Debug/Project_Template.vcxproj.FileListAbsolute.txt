@@ -2,3 +2,5 @@ C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\Project_Template_Diffuse\x64\De
 C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\Project_Template_Diffuse\x64\Debug\Project_Template.pdb
 C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\Project_Template_Phong\x64\Debug\Project_Template.exe
 C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\Project_Template_Phong\x64\Debug\Project_Template.pdb
+C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\Project_Template_Final\x64\Debug\Project_Template.exe
+C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\Project_Template_Final\x64\Debug\Project_Template.pdb
