@@ -3,6 +3,7 @@
 #include "scenebasic_uniform.h"
 
 
+
 int main(int argc, char* argv[])
 {
 	SceneRunner runner("Shader_Basics");
@@ -13,4 +14,6 @@ int main(int argc, char* argv[])
 
 
 	return runner.run(*scene);
+	
+	
 }

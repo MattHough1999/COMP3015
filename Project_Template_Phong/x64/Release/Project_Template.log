@@ -1,0 +1,2 @@
+﻿  glad.c
+C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\Project_Template_Phong\glad.c(25,10): fatal error C1083: Cannot open include file: 'glad/glad.h': No such file or directory

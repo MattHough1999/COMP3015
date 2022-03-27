@@ -21,6 +21,8 @@ bool back = true;
 //constructor for teapot
 SceneBasic_Uniform::SceneBasic_Uniform() : teapot(20, glm::translate(mat4(1.0f), vec3(0.0f, 1.5f, 0.25f))) {}
 
+
+
 void SceneBasic_Uniform::initScene()
 {
     compile();
@@ -29,7 +31,7 @@ void SceneBasic_Uniform::initScene()
     //initialise the model matrix
     model = mat4(1.0f);
     
-    //Creates
+    //Places the Teapot in the view model.
     model = glm::translate(model, vec3(0.0, -1.0, 0.0));
     model = glm::rotate(model, glm::radians(-90.0f), vec3(1.0f, 0.0f, 0.0f));
     model = glm::rotate(model, glm::radians(30.0f), vec3(0.0f, 0.0f, 1.0f));
