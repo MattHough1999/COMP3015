@@ -78,8 +78,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\Dependencies\lib;C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\Dependencies\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\Dependencies\include;C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\Dependencies\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\Project_Template_Final\Dependencies\include;C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\Project_Template_Final\Dependencies\lib;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\Project_Template_Final\Dependencies\include;C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\Project_Template_Final\Dependencies\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
