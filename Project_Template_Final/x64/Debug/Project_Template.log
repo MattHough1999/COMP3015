@@ -1,0 +1,11 @@
+﻿  scenebasic_uniform.cpp
+C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\Project_Template_Final\scenebasic_uniform.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\Project_Template_Final\Dependencies\include\glad\glad.h(32): message : see previous definition of 'APIENTRY'
+C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\Project_Template_Final\scenebasic_uniform.cpp(136,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\Project_Template_Final\scenebasic_uniform.cpp(144,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\Project_Template_Final\scenebasic_uniform.cpp(152,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\Project_Template_Final\scenebasic_uniform.cpp(160,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\Project_Template_Final\scenebasic_uniform.cpp(168,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\Project_Template_Final\scenebasic_uniform.cpp(176,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Project_Template.vcxproj -> C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\Project_Template_Final\x64\Debug\Project_Template.exe

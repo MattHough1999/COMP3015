@@ -1,0 +1,12 @@
+﻿  scenebasic_uniform.cpp
+C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\Project_Template_Final (3)\Project_Template_Final\Project_Template_Final\scenebasic_uniform.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\Project_Template_Final (3)\Project_Template_Final\Project_Template_Final\scenebasic_uniform.cpp(83,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\Project_Template_Final (3)\Project_Template_Final\Project_Template_Final\scenebasic_uniform.cpp(91,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\Project_Template_Final (3)\Project_Template_Final\Project_Template_Final\scenebasic_uniform.cpp(99,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\Project_Template_Final (3)\Project_Template_Final\Project_Template_Final\scenebasic_uniform.cpp(107,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\Project_Template_Final (3)\Project_Template_Final\Project_Template_Final\scenebasic_uniform.cpp(115,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\Project_Template_Final (3)\Project_Template_Final\Project_Template_Final\scenebasic_uniform.cpp(123,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\Project_Template_Final (3)\Project_Template_Final\Project_Template_Final\scenebasic_uniform.cpp(136,56): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\Project_Template_Final (3)\Project_Template_Final\Project_Template_Final\scenebasic_uniform.cpp(136,47): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\Project_Template_Final (3)\Project_Template_Final\Project_Template_Final\scenebasic_uniform.cpp(136,38): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Project_Template.vcxproj -> C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\Project_Template_Final (3)\Project_Template_Final\Project_Template_Final\x64\Debug\Project_Template.exe

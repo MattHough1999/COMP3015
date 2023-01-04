@@ -8,6 +8,9 @@
 
 #include "helper/torus.h"
 #include "helper/teapot.h"
+#include "helper/plane.h"
+#include "helper/objmesh.h"
+#include "helper/cube.h"
 #include <glm/glm.hpp>
 
 class SceneBasic_Uniform : public Scene
@@ -15,10 +18,15 @@ class SceneBasic_Uniform : public Scene
 private:
     GLSLProgram prog;
     
-    //Torus torus;
-    Teapot teapot;
-    
-    
+    /*
+    Torus torus;
+    //Teapot teapot;
+    Plane plane;
+    std::unique_ptr<ObjMesh> pigMesh;
+    std::unique_ptr<ObjMesh> newMesh;
+    */
+
+    Cube cube;
 
     void setMatrices();
 

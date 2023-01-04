@@ -1,0 +1,18 @@
+﻿  glad.c
+  glslprogram.cpp
+  glutils.cpp
+  teapot.cpp
+  torus.cpp
+  trianglemesh.cpp
+  main.cpp
+  scenebasic_uniform.cpp
+C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\Project_Template_FinalZIP\Project\scenebasic_uniform.cpp(66,39): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\Project_Template_FinalZIP\Project\scenebasic_uniform.cpp(71,39): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\Project_Template_FinalZIP\Project\scenebasic_uniform.cpp(84,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\Project_Template_FinalZIP\Project\scenebasic_uniform.cpp(92,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\Project_Template_FinalZIP\Project\scenebasic_uniform.cpp(100,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\Project_Template_FinalZIP\Project\scenebasic_uniform.cpp(108,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\Project_Template_FinalZIP\Project\scenebasic_uniform.cpp(116,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\Project_Template_FinalZIP\Project\scenebasic_uniform.cpp(124,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+  Project_Template.vcxproj -> C:\Users\Matt\Documents\GitHub\COMP3015\COMP3015\Project_Template_FinalZIP\Project\x64\Debug\Project_Template.exe
